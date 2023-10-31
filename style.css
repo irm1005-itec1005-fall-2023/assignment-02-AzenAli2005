@@ -1,19 +1,135 @@
-/*
- * Assignment 02
- * CSS FILE
- */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h2 {
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+header {
+  background-color: red;
+  color: white;
   text-align: center;
-  color: #023047;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 18px;
+}
+
+header ul {
+  list-style: none;
+  padding: 10px;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+main h2 {
+  font-size: 24px;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: black;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+
+form {
+  background-color: red;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.button { 
+  border-radius: 16px;
+  background-color: red; 
+  padding: 10px;
+  color: black;
+}
+
+.button-container {
+  text-align: center;
 }
